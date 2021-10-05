@@ -58,7 +58,8 @@
         <button class="advisors">See More Advisors</button>
         <button class="matched">Get Matched</button>
         <img class="seta" src="../assets/img/Setas.svg" alt="setas">
-        <img class="letras-texto" src="../assets/img/Letras.svg" alt="Letras"></div>
+        <img class="letras-texto" src="../assets/img/Letras.svg" alt="Letras">
+        </div>
     </div>
 </section>
 </template>
@@ -74,12 +75,12 @@
     font-style: normal;
     font-weight: normal;
     text-align: center;
-    font-size: 18px;
+    font-size: 72px;
 }
 .item{
     display: flex;
     text-align: left;
-    font-size: 11px;
+    font-size: 30px;
     color: #09292F;
     font-family: Roboto;
     font-style: normal;
@@ -102,6 +103,7 @@
     width: 15%;
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 .texto{
     width: 65%;
@@ -119,7 +121,8 @@ color: #008080;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 17px;
+font-size: 23px;
+line-height: 24px;
 margin-left: 5px;
 margin-top: -24px;
 }
@@ -130,12 +133,12 @@ color: #fff;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 7px;
-text-align: center;
+font-size: 15px;
+text-align: left;
 margin: 0px 0px 5px 0px;
 padding: 0px;
 margin: 0px;
-
+padding-left: 10px;
 }
 .valor{
     display: block;
@@ -153,14 +156,15 @@ margin: 0px;
 }
 .chamada{
     background: #FF9F00;
-border: 1px solid #FF9F00;
-box-sizing: border-box;
-border-radius: 2px;
+    border: 1px solid #FF9F00;
+    box-sizing: border-box;
+    border-radius: 2px;
     color: white;
     width: 100%;
-    font-size: 0.9em;
+    font-size: 28px;
     padding: 2px;
-    margin-bottom: 10px
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 .chamada-1{
 background: #09B3B0;
@@ -171,6 +175,7 @@ color: white;
 width: 100%;
 font-size: 0.9em;
 padding: 2px;
+
 }
 .chamada-2{
 background: #FFFFFF;
@@ -181,21 +186,24 @@ color: #09B3B0;
 width: 100%;
 font-size: 0.9em;
 padding: 2px;
-margin-bottom: 5px;
+margin-bottom: 20px;
+
 }
 .telefone{
     width: 17%;
     margin: 2px 5px 0px 0px;
     margin-bottom: -2px;
+    padding-left: 2px;
 }
 .telefone-1{
     margin: 2px 5px 0px 0px;
     margin-bottom: -2px;
-    width: 15px;
+    width: 24px;
 }
 .nome-1{
     margin-top: 0px;
     margin-left: 5px;
+    font-size: 27px;
 }
 .advisors{
 background: #09B3B0;
@@ -203,11 +211,11 @@ border: 1px solid #09B3B0;
 box-sizing: border-box;
 border-radius: 2px;
 color: white;
-font-size: 0.7em;
+text-align: center;
 margin-right: 15px;
-height: 28px;
-padding-left: 40px;
-padding-right: 40px;
+height: 45px;
+padding-left:  70px;
+padding-right: 70px;
 }
 .botao-inferior{
     display: flex;
@@ -220,22 +228,21 @@ border: 1px solid #FF9F00;
 box-sizing: border-box;
 border-radius: 2px;
 color: white;
-font-size: 0.7em;
 margin-right: 15px;
-height: 28px;
-padding-left: 40px;
-padding-right: 40px;
+height: 45px;
+padding-left: 70px;
+padding-right: 70px;
 }
 .seta{
 width: 4%;
-margin-top: -33px;
+margin-top: -70px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;    
 }
 .letras-texto{
     width: 10%;
-    margin-top: -33px;
+    margin-top: -70px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
