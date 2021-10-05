@@ -6,13 +6,12 @@
     <span class="subtitulo-2">$ 1 / min *</span>
   
    </h1>
-   
-   
   </header>
 </template>
 
 <script>
 import Menu from './Menu.vue'
+
 export default {
   name: 'Header',
   components: {
